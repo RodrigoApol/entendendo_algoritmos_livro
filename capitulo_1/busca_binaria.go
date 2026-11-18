@@ -13,7 +13,7 @@ func main() {
 	fmt.Println(BuscaBinaria(0, lista))
 }
 
-func BuscaBinaria(item int, lista []int) int {
+func BuscaBinaria(item int, lista []int) any {
 	baixo := 0
 	alto := len(lista) - 1
 
@@ -30,5 +30,5 @@ func BuscaBinaria(item int, lista []int) int {
 		}
 	}
 
-	return 0
+	return nil
 }
