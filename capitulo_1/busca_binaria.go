@@ -6,14 +6,14 @@ func main() {
 
 	lista := []int{1, 3, 5, 7}
 
-	fmt.Println(busca_binaria(1, lista))
-	fmt.Println(busca_binaria(3, lista))
-	fmt.Println(busca_binaria(5, lista))
-	fmt.Println(busca_binaria(7, lista))
-	fmt.Println(busca_binaria(0, lista))
+	fmt.Println(BuscaBinaria(1, lista))
+	fmt.Println(BuscaBinaria(3, lista))
+	fmt.Println(BuscaBinaria(5, lista))
+	fmt.Println(BuscaBinaria(7, lista))
+	fmt.Println(BuscaBinaria(0, lista))
 }
 
-func busca_binaria(item int, lista []int) int {
+func BuscaBinaria(item int, lista []int) int {
 	baixo := 0
 	alto := len(lista) - 1
 
