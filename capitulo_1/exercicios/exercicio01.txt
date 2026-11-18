@@ -1,0 +1,24 @@
+1.
+
+lista = 128
+
+chute 1 = 64
+chute 2 = 32
+chute 3 = 16
+chute 4 = 8
+chute 5 = 4
+chute 6 = 2
+chute 7 = *1*
+
+2.
+
+lista = 256
+
+chute 1 = 128
+chute 2 = 64
+chute 3 = 32
+chute 4 = 16
+chute 5 = 8
+chute 6 = 4
+chute 7 = 2
+chute 8 = *1*
